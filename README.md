@@ -1,6 +1,6 @@
 # Arthur Gon
 
-Data Scientist in training with hands-on experience at a high-growth startup — working end-to-end across predictive modeling, business intelligence, and LLM-based automation.
+Data Scientist in training with hands-on experience at a high-growth startup (working end-to-end across predictive modeling, business intelligence, and LLM-based automation).
 
 Currently a **Data Science Intern @ InstaCarro** | **B.Sc. Statistics @ UFSCar**
 
