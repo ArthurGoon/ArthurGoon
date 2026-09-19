@@ -1,42 +1,60 @@
 # Arthur Gon
 
-Data Scientist in training with hands-on experience at a high-growth startup (working end-to-end across predictive modeling, business intelligence, and LLM-based automation).
+**Data Scientist @ InstaCarro** · ML em produção · B.Sc. Estatística @ UFSCar
 
-Currently a **Data Scientist @ InstaCarro** | **B.Sc. Statistics @ UFSCar**
+Construo modelos de machine learning que chegam em produção e movem métrica de negócio: da definição do problema no funil à modelagem, deploy, API e monitoramento. Responsável por 6+ produtos de ML em produção, incluindo um modelo de margem e conversão que elevou a conversão em ~110% e a margem por venda em ~90% frente ao grupo de controle.
 
 ---
 
 ## Stack
 
-**Languages**
+**Linguagens**
 ```
 Python · SQL · R
 ```
 
-**Libraries & Tools**
+**ML em produção**
 ```
-pandas · NumPy · scikit-learn · Matplotlib · Seaborn · statsmodels · Metabase · Git
+Databricks · MLflow · Docker · APIs REST
+monitoramento e avaliação de modelos (evals) · retraining automático · versionamento
 ```
 
-**Competencies**
+**Modelagem e estatística**
 ```
-Machine Learning · Predictive Modeling · Clustering · Factor Analysis
-Product Analytics · CRM Analytics · A/B Testing · ETL · LLMs · Dashboards
+scikit-learn · statsmodels · pandas · NumPy
+regressão · classificação · testes A/B · inferência
+análise de sobrevivência · clustering · análise fatorial
+```
+
+**Dados e analytics**
+```
+ETL · pipelines · Metabase · Redshift · PostgreSQL · Supabase · BigQuery · Git
+```
+
+**LLM / GenAI**
+```
+LLMs em produção · automação de fluxo comercial · APIs de modelo · fine-tuning
 ```
 
 ---
 
-## Featured Projects
+## Projetos em destaque
 
-**[Socioeconomic Determinants of Voting — 2000 Brazilian Elections](https://github.com/ArthurGoon/Determinantes-Socioeconomicos-do-Voto-nas-Eleicoes-de-2000)**
-Factor analysis on public electoral data · R · Validated correlation between socioeconomic development and voting patterns
+[**Análise de sobrevivência de carreiras na NFL**](https://github.com/ArthurGoon/TCC_NFL)
+Cox com covariáveis dependentes do tempo, modelo aditivo de Aalen e Random Survival Forest para risco de saída da liga · Python, R
 
-**[Multidimensional Analysis of Sanitation Quality in São Paulo (2013–2022)](https://github.com/ArthurGoon/analise-multidimensional-da-qualidade-do-saneamento-no-estado-de-Sao-Paulo-2013-2022-)**
-Clustering analysis across all São Paulo municipalities · Python · K-means, DBSCAN, Hierarchical · 5 interpretable clusters identified
+[**Análise de risco de crédito — case técnico**](https://github.com/ArthurGoon/case-risco-credito)
+Política de crédito, corte por segmento e modelagem de classificação, com comparação explícita entre regra e modelo · Python
+
+[**Qualidade do saneamento em São Paulo (2013–2022)**](https://github.com/ArthurGoon/analise-multidimensional-da-qualidade-do-saneamento-no-estado-de-Sao-Paulo-2013-2022-)
+Clustering nos 630 municípios paulistas · K-Means, DBSCAN, hierárquico · Python
+
+[**Determinantes socioeconômicos do voto — eleições 2000**](https://github.com/ArthurGoon/Determinantes-Socioeconomicos-do-Voto-nas-Eleicoes-de-2000)
+Análise fatorial sobre dados eleitorais municipais · 79% da variância explicada em 2 fatores · R
 
 ---
 
-## Contact
+## Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur_Gon-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/arthurgon/)
 [![Email](https://img.shields.io/badge/Email-arthurp.gon@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:arthurp.gon@gmail.com)
