@@ -40,17 +40,20 @@ LLMs em produção · automação de fluxo comercial · APIs de modelo · fine-t
 
 ## Projetos em destaque
 
-[**Análise de sobrevivência de carreiras na NFL**](https://github.com/ArthurGoon/TCC_NFL)
-Cox com covariáveis dependentes do tempo, modelo aditivo de Aalen e Random Survival Forest para risco de saída da liga · Python, R
-
-[**Análise de risco de crédito — case técnico**](https://github.com/ArthurGoon/case-risco-credito)
-Política de crédito, corte por segmento e modelagem de classificação, com comparação explícita entre regra e modelo · Python
+[**Determinantes do preço de lançamento de celulares nos EUA**](https://github.com/ArthurGoon/projeto-1-lea)
+Regressão com seleção de forma funcional, splines, diagnóstico de VIF, importância por SHAP e validação out-of-fold. Pipeline reprodutível com `make` e lockfile de dependências · Python, R
 
 [**Qualidade do saneamento em São Paulo (2013–2022)**](https://github.com/ArthurGoon/analise-multidimensional-da-qualidade-do-saneamento-no-estado-de-Sao-Paulo-2013-2022-)
-Clustering nos 630 municípios paulistas · K-Means, DBSCAN, hierárquico · Python
+Clustering nos 630 municípios paulistas com K-Means, DBSCAN e hierárquico; 3 perfis distintos identificados, incluindo um grupo crítico de 62 municípios · Python
 
 [**Determinantes socioeconômicos do voto — eleições 2000**](https://github.com/ArthurGoon/Determinantes-Socioeconomicos-do-Voto-nas-Eleicoes-de-2000)
 Análise fatorial sobre dados eleitorais municipais · 79% da variância explicada em 2 fatores · R
+
+[**ClaimCheck**](https://github.com/ArthurGoon/ClaimCheck)
+Extensão de Chrome que checa fatos com um agente de busca próprio (Bing + Wikipedia + DuckDuckGo), com veredito e evidências · JavaScript, LLMs
+
+[**Vigil**](https://github.com/ArthurGoon/Vigil)
+Monitor de trechos de páginas web: avisa quando um texto muda, aparece ou some · TypeScript, Hono, Postgres, Drizzle
 
 ---
 
