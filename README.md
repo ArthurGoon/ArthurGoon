@@ -1,63 +1,40 @@
 # Arthur Gon
 
-**Data Scientist @ InstaCarro** · ML em produção · B.Sc. Estatística @ UFSCar
+**Cientista de Dados** · Machine Learning e IA generativa em produção · Estatística @ UFSCar
 
-Construo modelos de machine learning que chegam em produção e movem métrica de negócio: da definição do problema no funil à modelagem, deploy, API e monitoramento. Responsável por 6+ produtos de ML em produção, incluindo um modelo de margem e conversão que elevou a conversão em ~110% e a margem por venda em ~90% frente ao grupo de controle.
+Levo modelo do problema de negócio até a produção: modelagem, teste A/B, API, deploy e monitoramento. No trabalho, cuido de produtos de ML e LLMs num marketplace de veículos (precificação, conversão, captação e automação comercial). Aqui ficam os projetos pessoais e acadêmicos.
 
 ---
 
 ## Stack
 
-**Linguagens**
-```
-Python · SQL · R
-```
-
-**ML em produção**
-```
-Databricks · MLflow · Docker · APIs REST
-monitoramento e avaliação de modelos (evals) · retraining automático · versionamento
-```
-
-**Modelagem e estatística**
-```
-scikit-learn · statsmodels · pandas · NumPy
-regressão · classificação · testes A/B · inferência
-análise de sobrevivência · clustering · análise fatorial
-```
-
-**Dados e analytics**
-```
-ETL · pipelines · Metabase · Redshift · PostgreSQL · Supabase · BigQuery · Git
-```
-
-**LLM / GenAI**
-```
-LLMs em produção · automação de fluxo comercial · APIs de modelo · fine-tuning
-```
+| | |
+|---|---|
+| **Linguagens** | Python · SQL · R · TypeScript |
+| **ML e estatística** | scikit-learn · statsmodels · regressão e GLM · testes A/B · inferência causal · análise de sobrevivência · clustering |
+| **IA generativa** | APIs de LLM (OpenAI, Gemini, DeepSeek) · agentes com busca · extração e verificação com LLM |
+| **Produção** | Databricks · MLflow · Docker · APIs REST · monitoramento e retreinamento de modelos · Git |
+| **Dados e analytics** | PostgreSQL · BigQuery · ETL e pipelines · Metabase |
 
 ---
 
-## Projetos em destaque
+## Projetos
 
-[**Determinantes do preço de lançamento de celulares nos EUA**](https://github.com/ArthurGoon/projeto-1-lea)
-Regressão com seleção de forma funcional, splines, diagnóstico de VIF, importância por SHAP e validação out-of-fold. Pipeline reprodutível com `make` e lockfile de dependências · Python, R
+[**ClaimCheck**](https://github.com/ArthurGoon/ClaimCheck): extensão de Chrome que checa fatos em qualquer página. Um LLM extrai as afirmações, um agente próprio busca evidências na web (Bing, Wikipedia, DuckDuckGo) e o LLM dá o veredito com as fontes · JavaScript, LLMs
 
-[**Qualidade do saneamento em São Paulo (2013–2022)**](https://github.com/ArthurGoon/analise-multidimensional-da-qualidade-do-saneamento-no-estado-de-Sao-Paulo-2013-2022-)
-Clustering nos 630 municípios paulistas com K-Means, DBSCAN e hierárquico; 3 perfis distintos identificados, incluindo um grupo crítico de 62 municípios · Python
+[**Vigil**](https://github.com/ArthurGoon/Vigil): monitor de páginas web que avisa quando um trecho muda, aparece ou some. Backend, banco, login com Google e extensão · TypeScript, Hono, Postgres, Drizzle, Docker
 
-[**Determinantes socioeconômicos do voto — eleições 2000**](https://github.com/ArthurGoon/Determinantes-Socioeconomicos-do-Voto-nas-Eleicoes-de-2000)
-Análise fatorial sobre dados eleitorais municipais · 79% da variância explicada em 2 fatores · R
+[**Preço de lançamento de celulares**](https://github.com/ArthurGoon/projeto-1-lea): regressão com splines, diagnóstico de VIF, SHAP e validação out-of-fold, em pipeline reprodutível com `make` · Python, R
 
-[**ClaimCheck**](https://github.com/ArthurGoon/ClaimCheck)
-Extensão de Chrome que checa fatos com um agente de busca próprio (Bing + Wikipedia + DuckDuckGo), com veredito e evidências · JavaScript, LLMs
+[**Predição conformal: demanda de bicicletas**](https://github.com/ArthurGoon/lea-predicao-conformal): intervalos de predição com cobertura garantida (split conformal, escore normalizado e Mondrian) comparados à regressão clássica em 50 repetições · R, Quarto
 
-[**Vigil**](https://github.com/ArthurGoon/Vigil)
-Monitor de trechos de páginas web: avisa quando um texto muda, aparece ou some · TypeScript, Hono, Postgres, Drizzle
+[**Interpretabilidade de modelos: salários da NBA**](https://github.com/ArthurGoon/Projeto-Mineracao-de-Dados): OLS, Ridge e Lasso com permutation importance e SHAP · Python
+
+[**Saneamento em São Paulo**](https://github.com/ArthurGoon/analise-multidimensional-da-qualidade-do-saneamento-no-estado-de-Sao-Paulo-2013-2022-): clustering de 630 municípios paulistas com K-Means, DBSCAN e hierárquico para achar áreas prioritárias · Python
+
+**Em andamento:** TCC sobre sobrevivência de carreiras na NFL (Kaplan-Meier, Cox com covariáveis dependentes do tempo, Aalen, Random Survival Forest). Repositório abre após a defesa, em dez/2026.
 
 ---
-
-## Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur_Gon-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/arthurgon/)
 [![Email](https://img.shields.io/badge/Email-arthurp.gon@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:arthurp.gon@gmail.com)
