@@ -12,7 +12,7 @@ Levo modelo do problema de negócio até a produção: modelagem, teste A/B, API
 |---|---|
 | **Linguagens** | Python · SQL · R · TypeScript |
 | **ML e estatística** | scikit-learn · statsmodels · regressão e GLM · testes A/B · inferência causal · análise de sobrevivência · clustering |
-| **IA generativa** | APIs de LLM (OpenAI, Gemini, DeepSeek) · agentes com busca · extração e verificação com LLM |
+| **IA generativa** | APIs de LLM (OpenAI, Anthropic, Gemini, DeepSeek) · agentes com busca · extração e verificação com LLM |
 | **Produção** | Databricks · MLflow · Docker · APIs REST · monitoramento e retreinamento de modelos · Git |
 | **Dados e analytics** | PostgreSQL · BigQuery · ETL e pipelines · Metabase |
 
