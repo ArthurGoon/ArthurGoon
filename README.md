@@ -20,9 +20,9 @@ Levo modelo do problema de negócio até a produção: modelagem, teste A/B, API
 
 ## Projetos
 
-[**ClaimCheck**](https://github.com/ArthurGoon/ClaimCheck): extensão de Chrome que checa fatos em qualquer página. Um LLM extrai as afirmações, um agente próprio busca evidências na web (Bing, Wikipedia, DuckDuckGo) e o LLM dá o veredito com as fontes · JavaScript, LLMs
+[**ClaimCheck**](https://github.com/ArthurGoon/ClaimCheck): extensão de Chrome que verifica afirmações em qualquer página. Um LLM extrai as afirmações, a busca reúne evidências (Wikipedia, Brave, Tavily) e o LLM dá o veredito citando as fontes, com saída estruturada e validada. Avaliação offline com 24 afirmações rotuladas e 66 testes · JavaScript, LLMs
 
-[**Vigil**](https://github.com/ArthurGoon/Vigil): monitor de páginas web que avisa quando um trecho muda, aparece ou some. Backend, banco, login com Google e extensão · TypeScript, Hono, Postgres, Drizzle, Docker
+[**Vigil**](https://github.com/ArthurGoon/Vigil): monitor de páginas web que avisa quando um trecho muda, aparece ou some. API, worker com fila no próprio Postgres (`FOR UPDATE SKIP LOCKED`), extensão de Chrome e painel; roda localmente com Docker, com testes e CI · TypeScript, Hono, Postgres, Drizzle
 
 [**Preço de lançamento de celulares**](https://github.com/ArthurGoon/projeto-1-lea): regressão com splines, diagnóstico de VIF, SHAP e validação out-of-fold, em pipeline reprodutível com `make` · Python, R
 
